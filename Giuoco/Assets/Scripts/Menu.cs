@@ -21,8 +21,8 @@ public class Menu : MonoBehaviour
         Application.Quit();
     }
 
-    public void onPlayButton() {
-        SceneManager.LoadScene(1);
+    public void onPlayButton(string nameScene) {
+        SceneManager.LoadScene(nameScene);
         
     }
 }
