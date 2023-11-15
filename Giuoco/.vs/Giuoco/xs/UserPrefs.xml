@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{50C4139B-AE47-EE91-EC16-71284D6B2C7D}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/GameManager.cs">
+    <Files>
+      <File FileName="Assets/Scenes/GameManager.cs" Line="79" Column="1" />
+      <File FileName="Assets/Scenes/Buttons.cs" Line="18" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Giuoco">
+            <Node name="Assets" expanded="True">
+              <Node name="Scenes" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ae55f345-a575-4f69-92ef-f7c055dc9eff" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
