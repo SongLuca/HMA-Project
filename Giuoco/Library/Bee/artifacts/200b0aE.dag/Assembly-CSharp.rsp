@@ -354,6 +354,8 @@
 "Assets/QuestionarioManager.cs"
 "Assets/Scenes/Buttons.cs"
 "Assets/Scenes/GameManager.cs"
+"Assets/Scenes/Typewriter.cs"
+"Assets/Scenes/Welc_to_quest.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/Player.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

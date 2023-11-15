@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -55,8 +56,10 @@ public class GameManager : MonoBehaviour
         {
             // Fine del gioco
             Debug.Log("Fine del gioco. Risposte: " + string.Join(", ", risposte));
-            // Puoi aggiungere qui ulteriori azioni o passare a una scena di risultato
-            // o qualsiasi altra logica di fine gioco che desideri implementare.
+
+            // Puoi aggiungere qui ulteriori azioni o passare a una nuova scena
+            // In questo esempio, passeremo a una scena chiamata "Risultati"
+            SceneManager.LoadScene("Cervello3");
 
             // Resettare le variabili per consentire un nuovo gioco
             risposte.Clear();

@@ -1,12 +1,16 @@
 ﻿<Properties StartupConfiguration="{50C4139B-AE47-EE91-EC16-71284D6B2C7D}|">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/GameManager.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f7e10e7a-8017-430a-9a15-051c8d583c7f" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Welc_to_quest.cs">
     <Files>
-      <File FileName="Assets/Scenes/GameManager.cs" Line="79" Column="1" />
-      <File FileName="Assets/Scenes/Buttons.cs" Line="18" Column="39" />
+      <File FileName="Assets/Scenes/GameManager.cs" Line="62" Column="46" />
+      <File FileName="Assets/Scenes/Buttons.cs" />
+      <File FileName="Assets/Scenes/Welc_to_quest.cs" Line="6" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +24,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ae55f345-a575-4f69-92ef-f7c055dc9eff" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
