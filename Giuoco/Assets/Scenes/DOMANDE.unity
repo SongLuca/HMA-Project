@@ -598,6 +598,7 @@ MonoBehaviour:
   - {fileID: 1434892014682638392}
   - {fileID: 1749700215083684278}
   inputUsername: {fileID: 3294024703518510083}
+  invioButton: {fileID: 8723101748121247778}
 --- !u!1 &1111886349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,6 +1509,7 @@ MonoBehaviour:
   - {fileID: 1434892014682638392}
   - {fileID: 1749700215083684278}
   inputUsername: {fileID: 3294024703518510083}
+  invioButton: {fileID: 8723101748121247778}
 --- !u!114 &3314563788353392606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1555,6 +1557,7 @@ MonoBehaviour:
   - {fileID: 1434892014682638392}
   - {fileID: 1749700215083684278}
   inputUsername: {fileID: 3294024703518510083}
+  invioButton: {fileID: 8723101748121247778}
 --- !u!114 &3850998115660129743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1744,6 +1747,7 @@ MonoBehaviour:
   - {fileID: 1434892014682638392}
   - {fileID: 1749700215083684278}
   inputUsername: {fileID: 3294024703518510083}
+  invioButton: {fileID: 8723101748121247778}
 --- !u!1001 &5063050546251707722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1906,6 +1910,7 @@ MonoBehaviour:
   - {fileID: 1434892014682638392}
   - {fileID: 1749700215083684278}
   inputUsername: {fileID: 3786351569084793696, guid: 8e3e2954f0d4b470181190d6d21c9d75, type: 3}
+  invioButton: {fileID: 8723101748121247778}
 --- !u!114 &5063050546251707728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2111,6 +2116,7 @@ MonoBehaviour:
   - {fileID: 1434892014682638392}
   - {fileID: 1749700215083684278}
   inputUsername: {fileID: 3786351569084793696, guid: 8e3e2954f0d4b470181190d6d21c9d75, type: 3}
+  invioButton: {fileID: 8723101748121247778}
 --- !u!114 &6238546520281490811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2165,6 +2171,7 @@ MonoBehaviour:
   - {fileID: 1434892014682638392}
   - {fileID: 1749700215083684278}
   inputUsername: {fileID: 3294024703518510083}
+  invioButton: {fileID: 8723101748121247778}
 --- !u!114 &8335404644606707121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2300,6 +2307,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2802224091852591842, guid: 2b8800fcaa9b248a2af071d54abcfa91, type: 3}
   m_PrefabInstance: {fileID: 8723101748121247775}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8723101748121247778 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3354805442243044288, guid: 2b8800fcaa9b248a2af071d54abcfa91, type: 3}
+  m_PrefabInstance: {fileID: 8723101748121247775}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8723101748121247777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8723101748121247781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2319,6 +2337,7 @@ MonoBehaviour:
   - {fileID: 1434892014682638392}
   - {fileID: 1749700215083684278}
   inputUsername: {fileID: 3294024703518510083}
+  invioButton: {fileID: 8723101748121247778}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

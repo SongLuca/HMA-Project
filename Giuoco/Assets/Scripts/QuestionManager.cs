@@ -7,13 +7,23 @@ public class QuestionManager : MonoBehaviour
 {
     public Text domandaText;
     public Button[] rispostaButtons;
-    public InputField inputUsername; // Cambiato da Text a InputField
+    public InputField inputUsername;
+    public Button invioButton; // Nuovo pulsante "Invio"
 
     private List<int> risposte = new List<int>();
     private int indiceRisposta = 0;
     private int sommaRisposte = 0;
 
-    // Singleton pattern
+    private List<List<string>> risposteAssociate = new List<List<string>>()
+    {
+        new List<string> {"18-24", "25-34", "35-44", "45-54"},
+        new List<string> {"18-24", "25-34", "35-44", "45-54"},
+        new List<string> {"Female", "Male", "Non-binary", "Prefer not to say"},
+        new List<string> {"Single", "In a relationship", "Married", "Prefer not to say"},
+        new List<string> {"High school Graduate", "Bachelor's Degree", "Master's Degree", "Other"},
+        new List<string> {"YES I am currently receiving counseling or therapy", "No but I have received counseling or therapy in the past", "No I have not received counseling or therapy, and I am considering it", "No, I have not received counseling or therapy, and I do not plan to."}
+    };
+
     private static QuestionManager _instance;
     public static QuestionManager Instance
     {
@@ -36,28 +46,32 @@ public class QuestionManager : MonoBehaviour
     {
         MostraProssimaDomandaQuestionManager();
 
-        // Aggiungi un listener per l'evento "EndEdit" dell'InputField
         inputUsername.onEndEdit.AddListener(OnInputUsernameEndEdit);
+
+        // Aggiungi un listener per il click del pulsante "Invio"
+        invioButton.onClick.AddListener(OnInvioButtonClick);
     }
 
     private void OnInputUsernameEndEdit(string value)
     {
-        // Gestisci l'evento di fine modifica dell'InputField (quando l'utente preme "Invio")
-        // Esegui qui le azioni desiderate, come ad esempio salvare il valore dell'username
         Debug.Log($"Username inserito: {value}");
-
-        // Passa alla prossima domanda
-        MostraProssimaDomandaQuestionManager();
+        // Attiva il pulsante "Invio" quando l'utente inserisce lo username
+        invioButton.interactable = true;
     }
 
-    public void RispostaSelezionataQuestionManager(int valoreRisposta)    
+    private void OnInvioButtonClick()
+    {
+        // Gestisci il click del pulsante "Invio"
+        MostraProssimaDomandaQuestionManager();
+        // Disabilita il pulsante "Invio" dopo il click
+        invioButton.interactable = false;
+    }
+
+    public void RispostaSelezionataQuestionManager(int valoreRisposta)
     {
         risposte.Add(valoreRisposta);
         sommaRisposte += valoreRisposta;
-
-        // Aggiorna il testo dell'InputField con la somma delle risposte
         inputUsername.text = $"Somma delle risposte: {sommaRisposte}";
-
         MostraProssimaDomandaQuestionManager();
     }
 
@@ -66,23 +80,21 @@ public class QuestionManager : MonoBehaviour
         if (indiceRisposta < domande.Length)
         {
             domandaText.text = domande[indiceRisposta];
+
+            for (int i = 0; i < rispostaButtons.Length; i++)
+            {
+                rispostaButtons[i].GetComponentInChildren<Text>().text = risposteAssociate[indiceRisposta][i];
+            }
+
             indiceRisposta++;
         }
         else
         {
-            // Fine del gioco
             Debug.Log("Fine del gioco. Risposte: " + string.Join(", ", risposte));
-
-            // Puoi aggiungere qui ulteriori azioni o passare a una nuova scena
-            // In questo esempio, passeremo a una scena chiamata "Risultati"
             SceneManager.LoadScene("Quest_new");
-
-            // Resettare le variabili per consentire un nuovo gioco
             risposte.Clear();
             sommaRisposte = 0;
             indiceRisposta = 0;
-
-            // Pulisci anche il testo dell'InputField
             inputUsername.text = "";
         }
     }
@@ -92,7 +104,7 @@ public class QuestionManager : MonoBehaviour
         "Hello, tell us something about you. How would you prefer to be addressed in the game??",
         "What age group do you fall into?",
         "What is your preferred gender identity?",
-        "How would you describe your current relationship status?", 
+        "How would you describe your current relationship status?",
         "What is your highest level of education completed?",
         "Are you currently receiving professional mental health support or counseling?"
     };
