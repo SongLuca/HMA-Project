@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{50C4139B-AE47-EE91-EC16-71284D6B2C7D}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f7e10e7a-8017-430a-9a15-051c8d583c7f" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Welc_to_quest.cs">
+    <Files>
+      <File FileName="Assets/Scenes/GameManager.cs" Line="62" Column="46" />
+      <File FileName="Assets/Scenes/Buttons.cs" />
+      <File FileName="Assets/Scenes/Welc_to_quest.cs" Line="6" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Giuoco">
+            <Node name="Assets" expanded="True">
+              <Node name="Scenes" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
