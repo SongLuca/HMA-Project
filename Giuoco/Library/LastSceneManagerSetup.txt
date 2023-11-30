@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ScenaDomande/DOMANDE.unity
+- path: Assets/Scenes/GiocoVirgi/Memory.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

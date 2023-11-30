@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScenaDomande/DOMANDE.unity
     guid: a54a09e8cef4c47e5b94dccbc2495e9e
+  - enabled: 1
+    path: Assets/Scenes/GiocoVirgi/Memory.unity
+    guid: 9eb675acf3a284b689683de54607a8b4
   m_configObjects: {}

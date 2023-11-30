@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/margheritagroaz/Desktop/E-HEALTH/Project/PROGETTO/HMA-Project/Giuoco/Assembly-CSharp.csproj",
+      "projectUniqueName": "/Users/margheritagroaz/Desktop/E-HEALTH/UNITY/HMA-Project/Giuoco/Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "/Users/margheritagroaz/Desktop/E-HEALTH/Project/PROGETTO/HMA-Project/Giuoco/Assembly-CSharp.csproj",
+      "projectPath": "/Users/margheritagroaz/Desktop/E-HEALTH/UNITY/HMA-Project/Giuoco/Assembly-CSharp.csproj",
       "packagesPath": "/Users/margheritagroaz/.nuget/packages/",
-      "outputPath": "/Users/margheritagroaz/Desktop/E-HEALTH/Project/PROGETTO/HMA-Project/Giuoco/obj/",
+      "outputPath": "/Users/margheritagroaz/Desktop/E-HEALTH/UNITY/HMA-Project/Giuoco/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/margheritagroaz/.nuget/NuGet/NuGet.Config"
