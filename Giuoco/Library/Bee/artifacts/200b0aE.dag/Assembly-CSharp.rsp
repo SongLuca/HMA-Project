@@ -354,6 +354,8 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scenes/GiocoVirgi/AddButtons.cs"
 "Assets/Scenes/GiocoVirgi/MemoryManager.cs"
+"Assets/Scenes/GiocoVirgi/TypewriteEndGame.cs"
+"Assets/Scenes/GiocoVirgi/TypewriterMemory.cs"
 "Assets/Scenes/ScenaDomande/QuestionManager.cs"
 "Assets/Scenes/ScenaDomande/RispostaButtonQuestionM.cs"
 "Assets/Scripts/CambioScena.cs"

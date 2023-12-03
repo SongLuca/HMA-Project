@@ -2,7 +2,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
-
+public static class GlobalData
+{
+    public static string username;
+}
 public class QuestionManager : MonoBehaviour
 {
     public Text domandaText;
@@ -90,7 +93,7 @@ public class QuestionManager : MonoBehaviour
 
             indiceRisposta++;
         }
-        else
+       else
         {
             Debug.Log("Fine del gioco. Risposte: " + string.Join(", ", risposte));
             SceneManager.LoadScene("Quest_new");
@@ -99,6 +102,7 @@ public class QuestionManager : MonoBehaviour
             indiceRisposta = 0;
             inputUsername.text = "";
             // Resetta lo username
+            GlobalData.username = username;
             username = "";
         }
     }

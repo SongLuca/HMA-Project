@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MemoryManager : MonoBehaviour
 {
@@ -30,13 +31,21 @@ public class MemoryManager : MonoBehaviour
         Shuffle(gamePuzzles);
         gameGuesses = gamePuzzles.Count / 2;
     }
-
-    void GetButtons()
+   void GetButtons()
     {
         GameObject[] objects = GameObject.FindGameObjectsWithTag("puzzleBtn");
         for (int i = 0; i < objects.Length; i++)
         {
-            btns.Add(objects[i].GetComponent<Button>());
+            Button button = objects[i].GetComponent<Button>();
+            if (button != null)
+            {
+                btns.Add(button);
+                Text buttonText = button.GetComponentInChildren<Text>();
+            }
+            else
+            {
+                Debug.LogWarning("L'oggetto con tag 'puzzleBtn' non contiene un componente Button.");
+            }
             btns[i].image.sprite = bgImage;
         }
     }
@@ -129,6 +138,8 @@ public class MemoryManager : MonoBehaviour
         {
             print("End of the game");
             print("It took you " + countGuesses + " guesses.");
+            // Passa alla scena "GameCompleted"
+            SceneManager.LoadScene("EndGame");
         }
     }
 
