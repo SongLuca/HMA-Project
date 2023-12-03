@@ -8,19 +8,19 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Luca\\.nuget\\packages\\": {}
+    "/Users/margheritagroaz/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programmi\\HMA Proj\\HMA-Project\\Giuoco\\Assembly-CSharp.csproj",
+      "projectUniqueName": "/Users/margheritagroaz/Desktop/E-HEALTH/UNITY/HMA-Project/Giuoco/Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "D:\\Programmi\\HMA Proj\\HMA-Project\\Giuoco\\Assembly-CSharp.csproj",
-      "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
-      "outputPath": "D:\\Programmi\\HMA Proj\\HMA-Project\\Giuoco\\obj\\",
+      "projectPath": "/Users/margheritagroaz/Desktop/E-HEALTH/UNITY/HMA-Project/Giuoco/Assembly-CSharp.csproj",
+      "packagesPath": "/Users/margheritagroaz/.nuget/packages/",
+      "outputPath": "/Users/margheritagroaz/Desktop/E-HEALTH/UNITY/HMA-Project/Giuoco/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/margheritagroaz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -54,7 +54,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
       }
     }
   }

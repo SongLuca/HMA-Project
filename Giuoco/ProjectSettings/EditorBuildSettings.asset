@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1.unity
     guid: 5eea0f40e11cf114bb3fe5e6dbfee237
   - enabled: 1
-    path: Assets/Scenes/WELCOME SCENE.unity
+    path: Assets/Scenes/Welcome/WELCOME SCENE.unity
     guid: 53a3ef4d6177245dfb7736a22f74603f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Quest_new.unity
     guid: 5cbe60092b620454c9cb2e1184a5fb52
   - enabled: 1
@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/STANZA2.unity
     guid: 6432443eb01bb4b9a9a204adb3a19070
+  - enabled: 1
+    path: Assets/Scenes/ScenaDomande/DOMANDE.unity
+    guid: a54a09e8cef4c47e5b94dccbc2495e9e
+  - enabled: 1
+    path: Assets/Scenes/GiocoVirgi/Memory.unity
+    guid: 9eb675acf3a284b689683de54607a8b4
+  - enabled: 1
+    path: Assets/Scenes/GiocoVirgi/EndGame.unity
+    guid: 3547555f9a8124161b05b280f192818e
   m_configObjects: {}
