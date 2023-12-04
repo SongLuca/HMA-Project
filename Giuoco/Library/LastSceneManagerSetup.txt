@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/QUESTIONARIO.unity
+- path: Assets/Scenes/Questionari/QUESTIONARIO.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

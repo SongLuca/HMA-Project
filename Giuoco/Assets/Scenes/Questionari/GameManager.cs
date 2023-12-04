@@ -34,18 +34,20 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        MostraProssimaDomandaGameManager();
+        MostraProssimaDomanda();
     }
-    
-    public void RispostaSelezionataGameManager(int valoreRisposta)    
+
+    public void RispostaSelezionataGameManager(int valoreRisposta)
     {
         risposte.Add(valoreRisposta);
         sommaRisposte += valoreRisposta;
-        testoRisultato.text = $"Somma delle risposte: {sommaRisposte}";
-        MostraProssimaDomandaGameManager();
+        testoRisultato.text = $"Questionnaire results: {sommaRisposte}";
+        MostraProssimaDomanda();
+        Debug.Log("Risposta selezionata. Prossima domanda.");
     }
 
-    private void MostraProssimaDomandaGameManager()
+
+    private void MostraProssimaDomanda()
     {
         if (indiceRisposta < domande.Length)
         {
