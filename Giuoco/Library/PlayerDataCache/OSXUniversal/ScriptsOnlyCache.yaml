@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - QuestionManager
     - RispostaButtonQuestionM
     - TypewriterEffect
+    - TypewriterEndGame
     - TypewriterMemory
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -109,11 +110,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -160,11 +161,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,13 +214,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5784}
     - Class: 114
-      Script: {instanceID: 6106}
+      Script: {instanceID: 6108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -236,7 +237,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/GiocoVirgi/EndGame.unity:
+    Assets/Scenes/Memory/LEVEL1/EndGame.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -262,13 +263,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 4138}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -283,7 +284,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/GiocoVirgi/Memory.unity:
+    Assets/Scenes/Memory/LEVEL1/LEV1Memory.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -317,17 +318,227 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 4762}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 5410}
+      Script: {instanceID: 5412}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5784}
     - Class: 114
-      Script: {instanceID: 6106}
+      Script: {instanceID: 6108}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Memory/LEVEL1/MessageStart.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 2626}
+    - Class: 114
+      Script: {instanceID: 2830}
+    - Class: 114
+      Script: {instanceID: 4140}
+    - Class: 114
+      Script: {instanceID: 5082}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 114
+      Script: {instanceID: 5784}
+    - Class: 114
+      Script: {instanceID: 6108}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Memory/LEVEL2/2EndGame.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 2830}
+    - Class: 114
+      Script: {instanceID: 3500}
+    - Class: 114
+      Script: {instanceID: 5082}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 114
+      Script: {instanceID: 5784}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Memory/LEVEL2/2MessageStart.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 2626}
+    - Class: 114
+      Script: {instanceID: 2830}
+    - Class: 114
+      Script: {instanceID: 4140}
+    - Class: 114
+      Script: {instanceID: 5082}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 114
+      Script: {instanceID: 5784}
+    - Class: 114
+      Script: {instanceID: 6108}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Memory/LEVEL2/LEV2Memory.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 2582}
+    - Class: 114
+      Script: {instanceID: 2626}
+    - Class: 114
+      Script: {instanceID: 2830}
+    - Class: 114
+      Script: {instanceID: 4764}
+    - Class: 114
+      Script: {instanceID: 5082}
+    - Class: 114
+      Script: {instanceID: 5412}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 114
+      Script: {instanceID: 5784}
+    - Class: 114
+      Script: {instanceID: 6108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -370,7 +581,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -409,7 +620,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -458,11 +669,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 6106}
+      Script: {instanceID: 6108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -479,7 +690,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/WELCOME SCENE.unity:
+    Assets/Scenes/Welcome/WELCOME SCENE.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -515,23 +726,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 4002}
+      Script: {instanceID: 4004}
     - Class: 114
-      Script: {instanceID: 4110}
+      Script: {instanceID: 4112}
     - Class: 114
-      Script: {instanceID: 4330}
+      Script: {instanceID: 4332}
     - Class: 114
-      Script: {instanceID: 4366}
+      Script: {instanceID: 4368}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5784}
     - Class: 114
-      Script: {instanceID: 6106}
+      Script: {instanceID: 6108}
     - Class: 114
-      Script: {instanceID: 7898}
+      Script: {instanceID: 7900}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -891,6 +1102,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 2f1fb8acfddc31714d43048e90f18f7c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TypewriterEndGame
   - hash:
       serializedVersion: 2
       Hash: 995ded12fd23487c35be69ad8c37f000
@@ -1640,16 +1857,38 @@ ScriptsOnlyBuild:
       Hash: 2f1fb8acfddc31714d43048e90f18f7c
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: TypewriterEndGame
+    className: TypewriterMemoryy
+  - hash:
+      serializedVersion: 2
+      Hash: 2f1fb8acfddc31714d43048e90f18f7c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TypewriterEndGamee
+  - hash:
+      serializedVersion: 2
+      Hash: 8fa014d0f2f741f30d16676aba43a3d8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AddButtonss
+  - hash:
+      serializedVersion: 2
+      Hash: c4a1056875920a93695884ac21a604f3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MemoryManagerr
   platform: 2
   scenePathNames:
-  - Assets/Scenes/WELCOME SCENE.unity
+  - Assets/Scenes/Welcome/WELCOME SCENE.unity
   - Assets/Scenes/Cervello3.unity
   - Assets/Scenes/Cervello2.unity
   - Assets/Scenes/Cervello1.unity
   - Assets/Scenes/STANZA1.unity
   - Assets/Scenes/STANZA2.unity
   - Assets/Scenes/ScenaDomande/DOMANDE.unity
-  - Assets/Scenes/GiocoVirgi/Memory.unity
-  - Assets/Scenes/GiocoVirgi/EndGame.unity
-  playerPath: /Users/margheritagroaz/Desktop/E-HEALTH/UNITY/HMA-Project/Giuoco/provamemory.app
+  - Assets/Scenes/Memory/LEVEL1/LEV1Memory.unity
+  - Assets/Scenes/Memory/LEVEL1/EndGame.unity
+  - Assets/Scenes/Memory/LEVEL2/2MessageStart.unity
+  - Assets/Scenes/Memory/LEVEL2/2EndGame.unity
+  - Assets/Scenes/Memory/LEVEL2/LEV2Memory.unity
+  - Assets/Scenes/Memory/LEVEL1/MessageStart.unity
+  playerPath: /Users/margheritagroaz/Desktop/E-HEALTH/BASTAAA/HMA-Project/Giuoco/marghe.app
