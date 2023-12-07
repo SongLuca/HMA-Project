@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Memory/LEVEL2/LEV2Memory.unity
+- path: Assets/Scenes/Memory/LEVEL2/2MessageStart.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

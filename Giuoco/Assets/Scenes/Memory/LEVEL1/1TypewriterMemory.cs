@@ -3,7 +3,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class TypewriterMemory : MonoBehaviour
+public class TypewriterMemoryone : MonoBehaviour
 {
     public float delay = 0.1f;
     private string fullText = "Hello again <username>, complete the tasks in your journey to enhance your mental well-being in your daily life.";

@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{50C4139B-AE47-EE91-EC16-71284D6B2C7D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Memory/LEVEL2/2AddButtons.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Memory/LEVEL2/TypewriterStart2.cs">
     <Files>
-      <File FileName="Assets/Scenes/Memory/LEVEL2/2TypewriteEndGame.cs" Line="6" Column="32" />
-      <File FileName="Assets/Scenes/Memory/LEVEL2/2TypewriterMemory.cs" />
-      <File FileName="Assets/Scenes/Memory/LEVEL2/2AddButtons.cs" Line="15" Column="31" />
-      <File FileName="Assets/Scenes/Memory/LEVEL2/2MemoryManager.cs" />
-      <File FileName="Assets/Scenes/Memory/LEVEL1/MemoryManager.cs" Line="118" Column="35" />
-      <File FileName="Assets/Scenes/Memory/LEVEL1/AddButtons.cs" Line="15" Column="30" />
+      <File FileName="Assets/Scenes/Memory/LEVEL2/2TypewriteEndGame.cs" Line="27" Column="52" />
+      <File FileName="Assets/Scenes/Memory/LEVEL2/2AddButtons.cs" Line="33" Column="6" />
+      <File FileName="Assets/Scenes/Memory/LEVEL2/2MemoryManager.cs" Line="142" Column="38" />
+      <File FileName="Assets/Scenes/Questionari/GameManager.cs" Line="56" Column="10" />
+      <File FileName="Assets/Scripts/CambioScena.cs" Line="10" Column="28" />
+      <File FileName="Assets/Scenes/Memory/LEVEL2/TypewriterStart2.cs" Line="6" Column="31" />
+      <File FileName="Assets/Scenes/Memory/LEVEL1/1TypewriterMemory.cs" Line="6" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ac5ff299-2918-4966-b260-e98e626cf718" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3237e420-67ff-495e-93d9-2c072a7827d5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -360,6 +360,7 @@
 "Assets/Scenes/Memory/LEVEL2/2MemoryManager.cs"
 "Assets/Scenes/Memory/LEVEL2/2TypewriteEndGame.cs"
 "Assets/Scenes/Memory/LEVEL2/2TypewriterMemory.cs"
+"Assets/Scenes/Memory/LEVEL2/TypewriterStart2.cs"
 "Assets/Scenes/Questionari/GameManager.cs"
 "Assets/Scenes/ScenaDomande/QuestionManager.cs"
 "Assets/Scenes/ScenaDomande/RispostaButtonQuestionM.cs"

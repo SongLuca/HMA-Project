@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 583793727}
   - component: {fileID: 583793726}
   m_Layer: 5
-  m_Name: PlayButton
+  m_Name: AvantiButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -139,7 +139,7 @@ public class MemoryManagerr : MonoBehaviour
             print("End of the game");
             print("It took you " + countGuesses + " guesses.");
             // Passa alla scena "GameCompleted"
-            SceneManager.LoadScene("EndGame");
+            SceneManager.LoadScene("2EndGame");
         }
     }
 
