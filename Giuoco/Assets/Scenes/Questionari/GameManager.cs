@@ -7,11 +7,12 @@ public class GameManager : MonoBehaviour
 {
     public Text domandaText;
     public Button[] rispostaButtons;
-    public Text testoRisultato;
 
-    private List<int> risposte = new List<int>();
+    private List<int> rispostePHQ = new List<int>();
+    private List<int> risposteGAD = new List<int>();
     private int indiceRisposta = 0;
-    private int sommaRisposte = 0;
+    private int sommaRispostePHQ = 0;
+    private int sommaRisposteGAD = 0;
 
     // Singleton pattern
     private static GameManager _instance;
@@ -39,13 +40,20 @@ public class GameManager : MonoBehaviour
 
     public void RispostaSelezionataGameManager(int valoreRisposta)
     {
-        risposte.Add(valoreRisposta);
-        sommaRisposte += valoreRisposta;
-        testoRisultato.text = $"Questionnaire results: {sommaRisposte}";
+        if (indiceRisposta < 9)
+        {
+            rispostePHQ.Add(valoreRisposta);
+            sommaRispostePHQ += valoreRisposta;
+        }
+        else
+        {
+            risposteGAD.Add(valoreRisposta);
+            sommaRisposteGAD += valoreRisposta;
+        }
+
         MostraProssimaDomanda();
         Debug.Log("Risposta selezionata. Prossima domanda.");
     }
-
 
     private void MostraProssimaDomanda()
     {
@@ -57,27 +65,60 @@ public class GameManager : MonoBehaviour
         else
         {
             // Fine del gioco
-            Debug.Log("Fine del gioco. Risposte: " + string.Join(", ", risposte));
+            Debug.Log("Fine del gioco. Risposte PHQ: " + string.Join(", ", rispostePHQ));
+            Debug.Log("Fine del gioco. Risposte GAD: " + string.Join(", ", risposteGAD));
 
-            // Puoi aggiungere qui ulteriori azioni o passare a una nuova scena
-            // In questo esempio, passeremo a una scena chiamata "Risultati"
-            SceneManager.LoadScene("Cervello3");
+            // Calcola i risultati finali
+            int risultatoPHQ = sommaRispostePHQ;
+            int risultatoGAD = sommaRisposteGAD;
+
+            // Determina quale scena aprire in base ai risultati
+            if (risultatoGAD < 4 && risultatoPHQ < 4)
+            {
+                SceneManager.LoadScene("PROFILO1");
+            }
+            else if (risultatoGAD > 4 && risultatoGAD < 9 && risultatoPHQ > 4 && risultatoPHQ < 9)
+            {
+                SceneManager.LoadScene("PROFILO2");
+            }
+            else if (risultatoGAD > 9 && risultatoGAD < 21 && risultatoPHQ > 4 && risultatoPHQ < 9)
+            {
+                SceneManager.LoadScene("PROFILO3");
+            }
+            else
+            {
+                // Aggiungi altre condizioni o azioni qui se necessario
+                Debug.LogWarning("Condizioni non soddisfatte per aprire una scena specifica.");
+            }
 
             // Resettare le variabili per consentire un nuovo gioco
-            risposte.Clear();
-            sommaRisposte = 0;
+            rispostePHQ.Clear();
+            risposteGAD.Clear();
+            sommaRispostePHQ = 0;
+            sommaRisposteGAD = 0;
             indiceRisposta = 0;
-            testoRisultato.text = "";
         }
     }
 
     private string[] domande = new string[]
     {
+        //PHQ
         "During the last two weeks, how many days have you had little interest or pleasure in doing things?",
+        "During the last two weeks, how many days have you felt down, depressed, or hopeless?",
+        "During the last two weeks, how many days have you had trouble falling asleep, staying asleep, or sleeping too much?",
+        "During the last two weeks, how many days have you felt tired or had little energy?",
+        "During the last two weeks, how many days have you had a poor appetite or overeaten?",
+        "During the last two weeks, how many days have you felt angry with yourself or like a failure, or that you've let yourself or your family down?",
         "During the last two weeks, how many days have you had trouble concentrating on things like reading the newspaper or watching TV?",
         "During the last two weeks, how many days have you had movements or spoken so slowly that other people could have noticed? Or, on the contrary, have you been so fidgety or restless that you've been moving much more than usual?",
-        "During the last two weeks, how many days have you been afraid that something terrible might happen?",
+        "During the last two weeks, have you thought that it would be better to be dead or to hurt yourself in some way?",
+        // GAD
+        "During the last two weeks, how many days have you felt nervous, anxious, or tense?",
+        "During the last two weeks, how many days have you been unable to stop worrying or to keep worries under control?",
+        "During the last two weeks, how many days have you worried too much about different things?",
         "During the last two weeks, how many days have you had trouble relaxing?",
-        "During the last two weeks, how many days have you felt nervous, anxious, or tense?"
+        "During the last two weeks, how many days have you been so restless that it was hard to sit still?",
+        "During the last two weeks, how many days have you become easily annoyed or irritable?",
+        "During the last two weeks, how many days have you been afraid that something terrible might happen?"
     };
 }

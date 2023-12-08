@@ -9,7 +9,7 @@ public class TypewriterEndGame : MonoBehaviour
     private string fullText = "Congratulations on completing the game! Today you've made some steps ahead in your healing journey. Way to go <username>!";
     private string currentText = ""; // Aggiunto punto e virgola mancante
     public TextMeshProUGUI textDisplay;
-    public string nextSceneName = "";   // qui metti nome scena
+    public string nextSceneName = "PROFILO1";   // qui metti nome scena
 
     void Start()
     {
