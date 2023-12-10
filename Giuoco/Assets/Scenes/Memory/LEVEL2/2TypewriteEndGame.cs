@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class TypewriterEndGamee : MonoBehaviour
 {
     public float delay = 0.1f;
-    private string fullText = "Congratulations on completing the game! Today you've made some steps ahead in your healing journey. Way to go <username>!";
+    private string fullText = "";
     private string currentText = ""; // Aggiunto punto e virgola mancante
     public TextMeshProUGUI textDisplay;
     public string nextSceneName = "";   // qui metti nome scena
@@ -20,9 +20,23 @@ public class TypewriterEndGamee : MonoBehaviour
 
     IEnumerator ShowText()
     {
-        for (int i = 0; i <= fullText.Length; i++)
+        // Add an if block to handle different motivational messages
+        if (PlayerPrefs.GetString("userType") == "profilo1")
         {
-            currentText = fullText.Substring(0, i);
+            currentText = "\nExtraordinary, <username>! You have enlightened your mind. The time has come to reveal the thought. Are you ready to face it? ";
+         }
+        else if (PlayerPrefs.GetString("userType") == "profilo2")
+        {
+            currentText = "\nExtraordinary, <username>! You have enlightened your mind. The time has come to reveal the thought. Are you ready to face it?";
+        }
+        else if (PlayerPrefs.GetString("userType") == "profilo3")
+        {
+            currentText = "\nExtraordinary, <username>! You have enlightened your mind. The time has come to reveal the thought. Are you ready to face it?";
+        }
+
+        for (int i = 0; i <= currentText.Length; i++)
+        {
+            currentText = currentText.Substring(0, i);
             textDisplay.text = currentText;
             yield return new WaitForSeconds(delay);
         }

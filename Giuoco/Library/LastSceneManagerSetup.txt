@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Memory/LEVEL2/2MessageStart.unity
+- path: Assets/Scenes/Profili/PROFILO3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

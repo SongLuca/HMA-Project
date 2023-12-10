@@ -17,14 +17,14 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Quest_new.unity
     guid: 5cbe60092b620454c9cb2e1184a5fb52
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Cervello3.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Cervello2.unity
     guid: ca8eab4e2d0da4a738ebb1075f81dd1f
   - enabled: 1
-    path: Assets/Scenes/Cervello1.unity
+    path: Assets/Scenes/Cervello/Cervello.unity
     guid: 8dafba99d6b934eddae96f70519ff79e
   - enabled: 1
     path: Assets/Scenes/STANZA1.unity
@@ -33,24 +33,36 @@ EditorBuildSettings:
     path: Assets/Scenes/STANZA2.unity
     guid: 6432443eb01bb4b9a9a204adb3a19070
   - enabled: 1
-    path: Assets/Scenes/ScenaDomande/DOMANDE.unity
+    path: Assets/Scenes/Domande/DOMANDE.unity
     guid: a54a09e8cef4c47e5b94dccbc2495e9e
   - enabled: 1
     path: Assets/Scenes/Memory/LEVEL1/LEV1Memory.unity
     guid: 9eb675acf3a284b689683de54607a8b4
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL1/EndGame.unity
+    path: Assets/Scenes/Memory/LEVEL1/LEV1EndMem.unity
     guid: 3547555f9a8124161b05b280f192818e
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL2/2MessageStart.unity
+    path: Assets/Scenes/Memory/LEVEL2/LEV2StartMem.unity
     guid: aff7f29e5868845659a59e1c5a3e5454
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL2/2EndGame.unity
+    path: Assets/Scenes/Memory/LEVEL2/LEV2EndMem.unity
     guid: c2b45d315645945519e2e78136aef73f
   - enabled: 1
     path: Assets/Scenes/Memory/LEVEL2/LEV2Memory.unity
     guid: 107809963f99545d7998939997b04127
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL1/MessageStart.unity
+    path: Assets/Scenes/Memory/LEVEL1/LEV1StartMem.unity
     guid: 453d8ee8229c14ed8b56396b7dcaa52b
+  - enabled: 1
+    path: Assets/Scenes/Questionari/QUESTIONARIO.unity
+    guid: 173759827414b443c9dab7c1401306e1
+  - enabled: 1
+    path: Assets/Scenes/Profili/PROFILO1.unity
+    guid: 34f0d09b2e60a459396d60ed59f03c66
+  - enabled: 1
+    path: Assets/Scenes/Profili/PROFILO2.unity
+    guid: 81af4dafb3bf746db8420c73bc3de20d
+  - enabled: 1
+    path: Assets/Scenes/Profili/PROFILO3.unity
+    guid: 5903aa89efb28446d977142afdbdefdd
   m_configObjects: {}

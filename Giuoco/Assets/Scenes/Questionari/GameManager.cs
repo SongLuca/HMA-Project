@@ -35,9 +35,15 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        ResetGameState();
         MostraProssimaDomanda();
     }
 
+    private void ResetGameState()
+    {
+        indiceRisposta = 0;
+        // You might need to reset other game state variables here if necessary
+    }
     public void RispostaSelezionataGameManager(int valoreRisposta)
     {
         if (indiceRisposta < 9)
@@ -75,21 +81,20 @@ public class GameManager : MonoBehaviour
             // Determina quale scena aprire in base ai risultati
             if (risultatoGAD < 4 && risultatoPHQ < 4)
             {
+                PlayerPrefs.SetString("userType", "profilo1");
                 SceneManager.LoadScene("PROFILO1");
             }
             else if (risultatoGAD > 4 && risultatoGAD < 9 && risultatoPHQ > 4 && risultatoPHQ < 9)
             {
+                PlayerPrefs.SetString("userType", "profilo2");
                 SceneManager.LoadScene("PROFILO2");
             }
             else if (risultatoGAD > 9 && risultatoGAD < 21 && risultatoPHQ > 4 && risultatoPHQ < 9)
             {
+                PlayerPrefs.SetString("userType", "profilo3");
                 SceneManager.LoadScene("PROFILO3");
             }
-            else
-            {
-                // Aggiungi altre condizioni o azioni qui se necessario
-                Debug.LogWarning("Condizioni non soddisfatte per aprire una scena specifica.");
-            }
+           
 
             // Resettare le variabili per consentire un nuovo gioco
             rispostePHQ.Clear();
@@ -97,6 +102,7 @@ public class GameManager : MonoBehaviour
             sommaRispostePHQ = 0;
             sommaRisposteGAD = 0;
             indiceRisposta = 0;
+            ResetGameState();
         }
     }
 
