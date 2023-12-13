@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Profili/PROFILO3.unity
+- path: Assets/Scenes/MemoryP3/LEVEL1/LEV1EndMem.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

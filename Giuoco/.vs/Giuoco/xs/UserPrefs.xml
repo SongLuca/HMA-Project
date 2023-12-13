@@ -1,18 +1,12 @@
 ﻿<Properties StartupConfiguration="{50C4139B-AE47-EE91-EC16-71284D6B2C7D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Welcome/TypewriterWelcome.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Profili/Typewriter2.cs">
     <Files>
       <File FileName="Assets/Scenes/Questionari/GameManager.cs" Line="50" Column="10" />
-      <File FileName="Assets/Scenes/Memory/LEVEL1/1TypewriteEndGame.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scenes/Memory/LEVEL2/2TypewriterMemory.cs" />
-      <File FileName="Assets/Scenes/Memory/LEVEL2/2TypewriteEndGame.cs" />
       <File FileName="Assets/Scenes/Profili/Typewriter1.cs" />
-      <File FileName="Assets/Scenes/Profili/Typewriter2.cs" />
-      <File FileName="Assets/Scenes/Profili/Typewriter3.cs" />
-      <File FileName="Assets/Scenes/Memory/LEVEL2/TypewriterStart2.cs" />
-      <File FileName="Assets/Scenes/Memory/LEVEL2/2MemoryManager.cs" />
-      <File FileName="Assets/Scenes/Memory/LEVEL1/1MemoryManager.cs" Line="134" Column="6" />
-      <File FileName="Assets/Scenes/Memory/LEVEL1/1TypewriterMemory.cs" Line="11" Column="48" />
-      <File FileName="Assets/Scenes/Welcome/TypewriterWelcome.cs" Line="28" Column="1" />
+      <File FileName="Assets/Scenes/Profili/Typewriter2.cs" Line="25" Column="1" />
+      <File FileName="Assets/Scenes/Profili/Typewriter3.cs" Line="54" Column="2" />
+      <File FileName="Assets/Scenes/Welcome/TypewriterWelcome.cs" />
+      <File FileName="Assets/Scenes/Domande/QuestionManager.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c6b4274d-d34b-43bd-99c6-37306e4deb07" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="652f813c-5f28-42b9-bd96-b7f3089d3283" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
