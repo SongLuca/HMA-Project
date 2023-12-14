@@ -15,7 +15,7 @@ D:/Programmi/HMA Proj/HMA-Project/Giuoco
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51714
+52059
 Successfully changed project path to: D:/Programmi/HMA Proj/HMA-Project/Giuoco
 D:/Programmi/HMA Proj/HMA-Project/Giuoco
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Programmi/HMA Proj/HMA-Project/Giuoco
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16980] Host "[IP] 10.169.219.131 [Port] 0 [Flags] 2 [Guid] 120853888 [EditorId] 120853888 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JMIK7F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15460] Host "[IP] 10.174.251.235 [Port] 0 [Flags] 2 [Guid] 3474550746 [EditorId] 3474550746 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JMIK7F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16980] Host "[IP] 10.169.219.131 [Port] 0 [Flags] 2 [Guid] 120853888 [EditorId] 120853888 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JMIK7F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15460] Host "[IP] 10.174.251.235 [Port] 0 [Flags] 2 [Guid] 3474550746 [EditorId] 3474550746 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JMIK7F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 15.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 404.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path D:/Programmi/Unity/Hub/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'D:/Programmi/Unity/Hub/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programmi/Unity/Hub/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Programmi/Unity/Hub/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programmi/Unity/Hub/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Programmi/Unity/Hub/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008741 seconds.
-- Loaded All Assemblies, in  0.588 seconds
+Registered in 0.082664 seconds.
+- Loaded All Assemblies, in  2.345 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.393 seconds
-Domain Reload Profiling: 980ms
-	BeginReloadAssembly (200ms)
+- Finished resetting the current domain, in  0.395 seconds
+Domain Reload Profiling: 2740ms
+	BeginReloadAssembly (1782ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (239ms)
-		LoadAssemblies (200ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (162ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (1782ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (235ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (214ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (393ms)
+		AnalyzeDomain (321ms)
+			TypeCache.Refresh (319ms)
+				TypeCache.ScanAssembly (297ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (396ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (305ms)
+		SetupLoadedEditorAssemblies (303ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 980ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 20.070 seconds
-Refreshing native plugins compatible for Editor in 17.68 ms, found 3 plugins.
+- Loaded All Assemblies, in  3.067 seconds
+Refreshing native plugins compatible for Editor in 4.90 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.465 seconds
-Domain Reload Profiling: 22550ms
-	BeginReloadAssembly (1164ms)
+- Finished resetting the current domain, in  1.560 seconds
+Domain Reload Profiling: 4603ms
+	BeginReloadAssembly (264ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (119ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (188ms)
-	LoadAllAssembliesAndSetupDomain (18623ms)
-		LoadAssemblies (18716ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (2645ms)
+		LoadAssemblies (2510ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (493ms)
-			TypeCache.Refresh (437ms)
-				TypeCache.ScanAssembly (373ms)
-			ScanForSourceGeneratedMonoScriptInfo (48ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (2488ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (245ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1561ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1794ms)
+		SetupLoadedEditorAssemblies (1306ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (35ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (183ms)
-			ProcessInitializeOnLoadAttributes (1496ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (1161ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (4ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (52ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
-Refreshing native plugins compatible for Editor in 5.99 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 3.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3141 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3611.
-Memory consumption went from 199.6 MB to 199.6 MB.
-Total: 208.023100 ms (FindLiveObjects: 27.242300 ms CreateObjectMapping: 0.524000 ms MarkObjects: 179.827900 ms  DeleteObjects: 0.426200 ms)
+Unloading 3142 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3612.
+Memory consumption went from 199.8 MB to 199.8 MB.
+Total: 6.245800 ms (FindLiveObjects: 0.451300 ms CreateObjectMapping: 0.370100 ms MarkObjects: 5.064100 ms  DeleteObjects: 0.358900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,14 +183,665 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 159687.205112 seconds.
+  Time since last request: 356147.357736 seconds.
+  path: Assets/Textures/Puzzle_difficile
+  artifactKey: Guid(372f0cd1287cfa341a6a9583e5303b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile using Guid(372f0cd1287cfa341a6a9583e5303b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5588e1632d296f0bcc678e51bddf0ebd') in 0.004947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.011581 seconds.
+  path: Assets/Textures/Puzzle_difficile/Firefly posto bello da visitare 80161.jpg
+  artifactKey: Guid(ef8b619016d27d94fbb24d67e1b7ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/Firefly posto bello da visitare 80161.jpg using Guid(ef8b619016d27d94fbb24d67e1b7ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649ce359f967a6aff28cad60fb36b62e') in 0.234511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio2.jpg
+  artifactKey: Guid(29ed8549d156ece4d94e9a6523c2fe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio2.jpg using Guid(29ed8549d156ece4d94e9a6523c2fe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f2cb727ba2b3468d9031de6042b9c8') in 0.018756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio8.jpg
+  artifactKey: Guid(fde59e760a2abbe48a2cb90fb7458dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio8.jpg using Guid(fde59e760a2abbe48a2cb90fb7458dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158a6aa020889c9ca10f6ce29f40ff39') in 0.015346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio15.jpg
+  artifactKey: Guid(2c3be8cf5ee528844bdd239f971f96d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio15.jpg using Guid(2c3be8cf5ee528844bdd239f971f96d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30265cdc2c714b7cf522ce4960cf1f86') in 0.015950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio11.jpg
+  artifactKey: Guid(31eb0cc199d5d21418a6fd36eb0ff61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio11.jpg using Guid(31eb0cc199d5d21418a6fd36eb0ff61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ecc9c5e858e0b545e061f366aa3ac6') in 0.018615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio16.jpg
+  artifactKey: Guid(aeb963fa78c15aa4e804f3b8a9e23f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio16.jpg using Guid(aeb963fa78c15aa4e804f3b8a9e23f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e1ebc18bda4b11af003c104a8a479f') in 0.016875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio5.jpg
+  artifactKey: Guid(ccb64935baba3b3488a9e495e9acee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio5.jpg using Guid(ccb64935baba3b3488a9e495e9acee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c76b2804d8cdebba032395f4f5057b') in 0.015228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio7.jpg
+  artifactKey: Guid(a2718ce2075cef549823f83c3a208b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio7.jpg using Guid(a2718ce2075cef549823f83c3a208b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c687441e3da3b91929746832a595c5c') in 0.022683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio12.jpg
+  artifactKey: Guid(acbbbb75a6f8d8249ad77fe4727c7a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio12.jpg using Guid(acbbbb75a6f8d8249ad77fe4727c7a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bac96c06592b3856803fbf6c9ddc13b') in 0.031813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 52.681536 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio2.jpg
+  artifactKey: Guid(29ed8549d156ece4d94e9a6523c2fe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio2.jpg using Guid(29ed8549d156ece4d94e9a6523c2fe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05193cc1916f2f7e5c0311f0d75f467d') in 0.257529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio8.jpg
+  artifactKey: Guid(fde59e760a2abbe48a2cb90fb7458dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio8.jpg using Guid(fde59e760a2abbe48a2cb90fb7458dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430c760a4e0c4d8c6e8d9e1f4ce3bdd2') in 0.036374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio10.jpg
+  artifactKey: Guid(90c1e615fa335244681926460b5eb90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio10.jpg using Guid(90c1e615fa335244681926460b5eb90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f011dda0ac767f250056cd0f5743b027') in 0.029505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio3.jpg
+  artifactKey: Guid(df29c6eef7e5e8e44ab4b76ce2517d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio3.jpg using Guid(df29c6eef7e5e8e44ab4b76ce2517d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b930185f54a3780e5488b8fa24d2102') in 0.024326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio13.jpg
+  artifactKey: Guid(99a9bcda723df6e46b4ccd9b842ec71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio13.jpg using Guid(99a9bcda723df6e46b4ccd9b842ec71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f986881722686be477a9177ba6f0654') in 0.030156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio9.jpg
+  artifactKey: Guid(c67cc545b1339954f9e5e01185ce761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio9.jpg using Guid(c67cc545b1339954f9e5e01185ce761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de137f756deb32221327bc3a4b6de509') in 0.031842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio5.jpg
+  artifactKey: Guid(ccb64935baba3b3488a9e495e9acee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio5.jpg using Guid(ccb64935baba3b3488a9e495e9acee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ab570199e6058d967dc4ffba4ae239') in 0.026793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio7.jpg
+  artifactKey: Guid(a2718ce2075cef549823f83c3a208b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio7.jpg using Guid(a2718ce2075cef549823f83c3a208b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8cc1617ed451113061cfb0109e62bf') in 0.025291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio12.jpg
+  artifactKey: Guid(acbbbb75a6f8d8249ad77fe4727c7a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio12.jpg using Guid(acbbbb75a6f8d8249ad77fe4727c7a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da1fab45a3b468a0a9a2b0ee5a1068b') in 0.024565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 84976.157729 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio1 1.jpg
+  artifactKey: Guid(36dec98ef1041c8438f077eb5e666dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio1 1.jpg using Guid(36dec98ef1041c8438f077eb5e666dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8c4f0e098bf4ef35e1a6e37350d7e2') in 6.369648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 132.141071 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio1 2.jpg
+  artifactKey: Guid(f87eb09d12d42d44ca08af5d60a53e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio1 2.jpg using Guid(f87eb09d12d42d44ca08af5d60a53e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d008d4c556c12287f815f12f9d11540') in 0.357849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio9 1.jpg
+  artifactKey: Guid(dcdc2c56b4ebff54a9b58530f4f0803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio9 1.jpg using Guid(dcdc2c56b4ebff54a9b58530f4f0803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec6db99445baa26454f7a6442957b4') in 0.227669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio6 1.jpg
+  artifactKey: Guid(c0089f7bf3fe30a4f88898f0d2fbbe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio6 1.jpg using Guid(c0089f7bf3fe30a4f88898f0d2fbbe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1634a06fb06f3db642485b94bdf5f07e') in 0.205142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014880 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio2 3.jpg
+  artifactKey: Guid(ca3b321635535bf4fa60a64026f0e43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio2 3.jpg using Guid(ca3b321635535bf4fa60a64026f0e43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262c0b29a711a9549b09bf20aef3361e') in 0.092751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio8 1.jpg
+  artifactKey: Guid(72ada4b2e27456a43be9efc8863b53c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio8 1.jpg using Guid(72ada4b2e27456a43be9efc8863b53c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b022d04415267e4e7778655700c81a1') in 0.081941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio4 2.jpg
+  artifactKey: Guid(da1c2ca314c03534eaa5834f4ff367a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio4 2.jpg using Guid(da1c2ca314c03534eaa5834f4ff367a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c39bc20ef1ff45798b5dc34ca927429') in 0.167926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 206.271212 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio1(1).jpg
+  artifactKey: Guid(9e5be02c620f18d4cbd75439a46e4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio1(1).jpg using Guid(9e5be02c620f18d4cbd75439a46e4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58708c60de45fe99dccfa3dd49f9f801') in 0.494945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio6(1).jpg
+  artifactKey: Guid(7b1758bfc63a53c48a6a9f688c6269ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio6(1).jpg using Guid(7b1758bfc63a53c48a6a9f688c6269ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7a25e6101970df29711e81afb49ffc') in 0.309607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio4(1).jpg
+  artifactKey: Guid(576508a69e7a6e845a9984ec3369dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio4(1).jpg using Guid(576508a69e7a6e845a9984ec3369dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3ad2758232e9cc9033bca7450edc29') in 0.214356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio3(1).jpg
+  artifactKey: Guid(a2a74061f362075418d9f8135e7e14cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio3(1).jpg using Guid(a2a74061f362075418d9f8135e7e14cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e5728c36eca715290f3386d2de1a06') in 0.153618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009115 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio19.jpg
+  artifactKey: Guid(9eb2d3314ff6baf49a0a71a6531f6729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio19.jpg using Guid(9eb2d3314ff6baf49a0a71a6531f6729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decdae49ee5973640d706d280a89522e') in 0.292457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio5(1).jpg
+  artifactKey: Guid(d39ec1b7499b4c34d9581712608f70b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio5(1).jpg using Guid(d39ec1b7499b4c34d9581712608f70b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344477747fc6ecdf8098ba730541dfeb') in 0.126776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio11(1).jpg
+  artifactKey: Guid(5bb9e600a70bfa14c8e6eec76eae298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio11(1).jpg using Guid(5bb9e600a70bfa14c8e6eec76eae298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacded9e393b0f2a3d9525b8f9550078') in 0.453138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio9(1).jpg
+  artifactKey: Guid(9b70e79a02ba3c7409d96145cbe02bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio9(1).jpg using Guid(9b70e79a02ba3c7409d96145cbe02bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656789fdc1685438dde382afa9193d3c') in 0.104421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio21.jpg
+  artifactKey: Guid(b7c754d3660543c4c905b443c318ab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio21.jpg using Guid(b7c754d3660543c4c905b443c318ab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcab02e6c6f5a04d521f539bac11810') in 0.307718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio16(1).jpg
+  artifactKey: Guid(f1dec425a13c1a1468b36a08d3f8cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio16(1).jpg using Guid(f1dec425a13c1a1468b36a08d3f8cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a47b097e5f18f5d7e477fa92696b93') in 0.251850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio22.jpg
+  artifactKey: Guid(174aa5b887f76f44dbfca93c98b8e617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio22.jpg using Guid(174aa5b887f76f44dbfca93c98b8e617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dee130a09166cb7a429bd798ef23bd') in 0.078314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 344.672894 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio1(1).jpg
+  artifactKey: Guid(9e5be02c620f18d4cbd75439a46e4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio1(1).jpg using Guid(9e5be02c620f18d4cbd75439a46e4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccce6acf7d796d6a5923c50a3c65598b') in 0.407933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio6(1).jpg
+  artifactKey: Guid(7b1758bfc63a53c48a6a9f688c6269ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio6(1).jpg using Guid(7b1758bfc63a53c48a6a9f688c6269ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30e713e9d6fa42807bee1d1b5fda834') in 0.057910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio4(1).jpg
+  artifactKey: Guid(576508a69e7a6e845a9984ec3369dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio4(1).jpg using Guid(576508a69e7a6e845a9984ec3369dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce0dee62b89662b0c6cab534824b6bc') in 0.093934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio24.jpg
+  artifactKey: Guid(29dc3fe1632180a41bec08e44453f2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio24.jpg using Guid(29dc3fe1632180a41bec08e44453f2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7167d761b44278c61fd8a24cffd8e342') in 0.167036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio18.jpg
+  artifactKey: Guid(2390efa28309bb84994a8c1ec523253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio18.jpg using Guid(2390efa28309bb84994a8c1ec523253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2e26ae96712e32c68b39a069355528') in 0.224280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio23.jpg
+  artifactKey: Guid(c2b5566de9506b9408e83f1753103f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio23.jpg using Guid(c2b5566de9506b9408e83f1753103f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab360b742334751871b027020bd089e') in 0.090506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio7(1).jpg
+  artifactKey: Guid(9d3c9ee87a5666847a3e3d796163761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio7(1).jpg using Guid(9d3c9ee87a5666847a3e3d796163761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1bb53f16a34175c63027757331f9be') in 0.175210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio13(1).jpg
+  artifactKey: Guid(9a7dcd143b850234180987a7f6b16ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio13(1).jpg using Guid(9a7dcd143b850234180987a7f6b16ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe8f33e9550a481b50c4ec08c3f9543') in 0.110362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio9(1).jpg
+  artifactKey: Guid(9b70e79a02ba3c7409d96145cbe02bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio9(1).jpg using Guid(9b70e79a02ba3c7409d96145cbe02bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fca412b12fdf555b4d045d21a99139') in 0.101243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio21.jpg
+  artifactKey: Guid(b7c754d3660543c4c905b443c318ab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio21.jpg using Guid(b7c754d3660543c4c905b443c318ab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99b91d5409d1a5cc08f7aabbabc1e90') in 0.487758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio10(1).jpg
+  artifactKey: Guid(e46665d0e86e9bf4c94c645bab102509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio10(1).jpg using Guid(e46665d0e86e9bf4c94c645bab102509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7768eea615ef6aa7eece4af3600b17') in 0.230349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Textures/Puzzle_difficile/paesaggio12(1).jpg
+  artifactKey: Guid(9037d4c2d2d6a3145b1d30a164af5073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Puzzle_difficile/paesaggio12(1).jpg using Guid(9037d4c2d2d6a3145b1d30a164af5073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fc4a8343dcd49e9637118a402522f8') in 0.096205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 29.509 seconds
+Refreshing native plugins compatible for Editor in 7.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 43.043 seconds
+Domain Reload Profiling: 72551ms
+	BeginReloadAssembly (13389ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (1071ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (31ms)
+		CreateAndSetChildDomain (5838ms)
+	RebuildCommonClasses (145ms)
+	RebuildNativeTypeToScriptingClass (77ms)
+	initialDomainReloadingComplete (366ms)
+	LoadAllAssembliesAndSetupDomain (15531ms)
+		LoadAssemblies (17145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (632ms)
+			TypeCache.Refresh (515ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (116ms)
+	FinalizeReload (43044ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (795ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (61ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (498ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3621.
+Memory consumption went from 201.6 MB to 201.6 MB.
+Total: 79.913600 ms (FindLiveObjects: 0.265000 ms CreateObjectMapping: 0.243800 ms MarkObjects: 79.330000 ms  DeleteObjects: 0.073500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.775 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.164 seconds
+Domain Reload Profiling: 2939ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (430ms)
+		LoadAssemblies (578ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2164ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (724ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (571ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3624.
+Memory consumption went from 203.8 MB to 203.8 MB.
+Total: 3.814600 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.223100 ms MarkObjects: 3.245600 ms  DeleteObjects: 0.081600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1272.807239 seconds.
   path: Assets/Scripts/PuzzleManager.cs
   artifactKey: Guid(e88cf5c14a1d5f541a3918f13da3cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PuzzleManager.cs using Guid(e88cf5c14a1d5f541a3918f13da3cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a6fd8acff79f9ca6acd8cc67625be') in 0.182966 seconds
+Start importing Assets/Scripts/PuzzleManager.cs using Guid(e88cf5c14a1d5f541a3918f13da3cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38c9a94584fd89ee210c502163998d5') in 0.011408 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.041 seconds
-Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+- Loaded All Assemblies, in 12.826 seconds
+Refreshing native plugins compatible for Editor in 25.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 61.271 seconds
+Domain Reload Profiling: 74098ms
+	BeginReloadAssembly (3313ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (9365ms)
+		LoadAssemblies (12420ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (61272ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (669ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (532ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 46.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3627.
+Memory consumption went from 205.5 MB to 205.5 MB.
+Total: 3.905200 ms (FindLiveObjects: 0.340900 ms CreateObjectMapping: 0.287400 ms MarkObjects: 3.215100 ms  DeleteObjects: 0.060200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.777 seconds
+Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 18.186 seconds
+Domain Reload Profiling: 20963ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (2441ms)
+		LoadAssemblies (2609ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (18187ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3630.
+Memory consumption went from 207.7 MB to 207.7 MB.
+Total: 4.584200 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.965100 ms MarkObjects: 3.058000 ms  DeleteObjects: 0.091700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

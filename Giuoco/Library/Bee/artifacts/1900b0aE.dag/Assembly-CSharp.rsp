@@ -353,6 +353,7 @@
 -analyzer:"D:/Programmi/Unity/Hub/2022.3.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Programmi/Unity/Hub/2022.3.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scenes/GameManager.cs"
+"Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/Buttons.cs"
 "Assets/Scripts/CambioScena.cs"
 "Assets/Scripts/DragNDrop.cs"

@@ -5,7 +5,10 @@ using UnityEngine.EventSystems;
 public class DragDropHandler : MonoBehaviour {
 
     public GameObject selectedObject;
-    void Start() {}
+    public AudioManager audioManager;
+    void Start() {
+        audioManager = FindObjectOfType<AudioManager>();
+    }
 
     void Update()
     {
@@ -16,6 +19,7 @@ public class DragDropHandler : MonoBehaviour {
             if (isHit) {
                 if (hit.transform.CompareTag("puzzle_piece")) {
                     selectedObject = hit.transform.gameObject;
+                    audioManager.pieceMovedSound();
                 }
             }
         }
@@ -30,6 +34,7 @@ public class DragDropHandler : MonoBehaviour {
 
         if (Input.GetMouseButtonUp(0)) {
             selectedObject = null;
+            audioManager.pieceMovedSound();
         }
         
     }

@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Cervello1.unity
     guid: 8dafba99d6b934eddae96f70519ff79e
   - enabled: 1
-    path: Assets/Scenes/STANZA1.unity
+    path: Assets/Scenes/Puzzle facile.unity
     guid: 026813b02521b403bbda52b6348a7dd6
   - enabled: 1
     path: Assets/Scenes/STANZA2.unity

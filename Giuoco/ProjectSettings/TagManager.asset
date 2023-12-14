@@ -6,6 +6,7 @@ TagManager:
   tags:
   - puzzle_cell
   - puzzle_piece
+  - puzzle_piece_undraggable
   layers:
   - Default
   - TransparentFX

@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public struct PuzzlePiece {
+public class PuzzlePiece {
     public GameObject piece;
     public bool placed;
 
@@ -13,18 +14,48 @@ public struct PuzzlePiece {
 }
 public class PuzzleManager : MonoBehaviour
 {
-    public GameObject[] cells;
-    public GameObject[] pieces;
+    public AudioManager audioManager;
+    public List<GameObject> cells;
+    public List<GameObject> pieces;
 
     private Dictionary<string, PuzzlePiece> correctPieces = new Dictionary<string, PuzzlePiece>();
     private int totalPlaced = 0;
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < cells.Length; i++)
+        audioManager = FindObjectOfType<AudioManager>();
+        for (int i = 0; i < cells.Count; i++)
         {
-            correctPieces.Add(cells[i].transform.tag, new PuzzlePiece(pieces[i]));
-            Debug.Log("ID cell: " + cells[i].tag + " ID puzzle: " + pieces[i].tag);
+            Debug.Log("ID cell: " + cells[i].name + " ID puzzle: " + pieces[i].name);
+            correctPieces.Add(cells[i].name, new PuzzlePiece(pieces[i]));
+            
+        }
+
+        //Re-arrange puzzle pieces
+        swapPositions();
+    }
+
+    void swapPositions() {
+        System.Random rand = new System.Random();
+        List<Vector2> uniquePositions = new List<Vector2>();
+
+        foreach (GameObject piece in pieces)
+        {
+            uniquePositions.Add(piece.transform.position);
+        }
+
+        for (int i = 0; i < uniquePositions.Count; i++)
+        {
+            int r = rand.Next(i, uniquePositions.Count);
+            Vector2 temp = uniquePositions[r];
+            uniquePositions[r] = uniquePositions[i];
+            uniquePositions[i] = temp;
+        }
+
+        for (int i = 0; i < pieces.Count; i++)
+        {
+            pieces[i].transform.position = uniquePositions[i];
+            Debug.Log(pieces[i].transform.position);
         }
     }
 
@@ -38,12 +69,17 @@ public class PuzzleManager : MonoBehaviour
             //move position to cell's position
             if (ray.collider != null) {
                 if (ray.transform.CompareTag("puzzle_piece")) {
-                    for (int i=0; i<cells.Length; i++) {
+                    for (int i=0; i<cells.Count; i++) {
                         if (pieceOverlapped(ray.transform.gameObject, cells[i])) {
                             ray.transform.localPosition = cells[i].transform.localPosition;
-                            checkCorrectPlacement(ray.transform.gameObject, cells[i]);
+                            if (correctPieces[cells[i].name].piece.name == ray.transform.gameObject.name) {
+                                totalPlaced++;
+                                ray.transform.gameObject.tag = "puzzle_piece_undraggable";
+                            }
+                            checkWin();
                         }
                     }
+                
                 }
             }
         }
@@ -58,10 +94,18 @@ public class PuzzleManager : MonoBehaviour
             return false;
     }
         
+    private void checkWin() {
+        if (totalPlaced == cells.Count) {
+            Debug.Log("Winner winner chicken dinner\n");
+        }
+
+    }
     private bool checkCorrectPlacement(GameObject piece, GameObject cell) {
         bool found = false;
-        if (correctPieces[cell.transform.tag].piece.transform.tag == piece.transform.tag)
+        if (correctPieces[cell.name].piece.name == piece.name) {
             found = true;
+            totalPlaced++;
+        }
         return found;
     }
     private float getSpriteX(GameObject obj) {
