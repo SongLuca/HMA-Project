@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/PuzzleP1/PuzzleLev2/Puzzle difficile.unity
+=======
+- path: Assets/Scenes/MemoryP3/LEVEL1/LEV1EndMem.unity
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
   isLoaded: 1
   isActive: 1
   isSubScene: 0

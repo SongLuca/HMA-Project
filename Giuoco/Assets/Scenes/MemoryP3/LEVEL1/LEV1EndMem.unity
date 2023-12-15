@@ -181,9 +181,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: "Luis, congratulations on getting through the first level! \n\nYou have
     dispelled some of the shadows that were dimming your inner light.\nYour strength
     is palpable. \n\nContinue this path!"
+=======
+  m_text: Extraordinary, Henry! You have enlightened your mind. The time has come
+    to reveal the thought. Are you ready to face it?
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -274,7 +279,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.05
   textDisplay: {fileID: 379862162}
+<<<<<<< HEAD
   nextSceneName: P3Cervello2
+=======
+  nextSceneName: Cervello 2
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
 --- !u!1 &440920486
 GameObject:
   m_ObjectHideFlags: 0

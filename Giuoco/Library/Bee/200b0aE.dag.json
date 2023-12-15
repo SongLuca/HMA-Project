@@ -19954,7 +19954,11 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1514091,
+<<<<<<< HEAD
       "PayloadLength": 37634,
+=======
+      "PayloadLength": 37389,
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -19966,7 +19970,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1551811,
+=======
+      "PayloadOffset": 1551566,
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -20236,12 +20244,16 @@
         "Assets/Scenes/MemoryP3/LEVEL2/2TypewriteEndGame.cs",
         "Assets/Scenes/MemoryP3/LEVEL2/2TypewriterMemory.cs",
         "Assets/Scenes/MemoryP3/LEVEL2/lossTime.cs",
+<<<<<<< HEAD
         "Assets/Scenes/MemoryP3/LEVEL2/PositiveTHOUGHT.cs",
+=======
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
         "Assets/Scenes/MemoryP3/LEVEL2/Thought2.cs",
         "Assets/Scenes/MemoryP3/LEVEL2/TypewriterStart2.cs",
         "Assets/Scenes/Profili/Typewriter1.cs",
         "Assets/Scenes/Profili/Typewriter2.cs",
         "Assets/Scenes/Profili/Typewriter3.cs",
+<<<<<<< HEAD
         "Assets/Scenes/PuzzleP1/script/AudioManager.cs",
         "Assets/Scenes/PuzzleP1/script/DragNDrop.cs",
         "Assets/Scenes/PuzzleP1/script/Menu.cs",
@@ -20250,6 +20262,12 @@
         "Assets/Scenes/PuzzleP1/script/QuestionarioManager.cs",
         "Assets/Scenes/PuzzleP1/script/RoomManager.cs",
         "Assets/Scenes/PuzzleP1/script/TypewriterP1.cs",
+=======
+        "Assets/Scenes/PuzzleP1/DragNDrop.cs",
+        "Assets/Scenes/PuzzleP1/Player.cs",
+        "Assets/Scenes/PuzzleP1/PuzzleManager.cs",
+        "Assets/Scenes/PuzzleP1/RoomManager.cs",
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
         "Assets/Scenes/Questionari/GameManager.cs",
         "Assets/Scenes/Welcome/CambioScena.cs",
         "Assets/Scenes/Welcome/TypewriterWelcome.cs",
@@ -20545,7 +20563,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1551906,
+=======
+      "PayloadOffset": 1551661,
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
       "PayloadLength": 9343,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],

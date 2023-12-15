@@ -316,12 +316,20 @@
 "Assets/Scenes/LabirintoP2/scriptLab/LOSSPOPUPSCENE2.cs"
 "Assets/Scenes/LabirintoP2/scriptLab/MAZESCRIPT.cs"
 "Assets/Scenes/LabirintoP2/scriptLab/MAZESCRIPT2.cs"
+<<<<<<< HEAD
 "Assets/Scenes/LabirintoP2/scriptLab/TIMERSCRIPT1.cs"
 "Assets/Scenes/LabirintoP2/scriptLab/TIMESCRIPT2.cs"
 "Assets/Scenes/LabirintoP2/scriptLab/welcome2.cs"
 "Assets/Scenes/LabirintoP2/scriptLab/WELCOMELABIRINTO.cs"
 "Assets/Scenes/LabirintoP2/scriptLab/WINPOPUPSCENE.cs"
 "Assets/Scenes/LabirintoP2/ThoughtLBA.cs"
+=======
+"Assets/Scenes/LabirintoP2/scriptLab/TIMERSCRIPT.cs"
+"Assets/Scenes/LabirintoP2/scriptLab/TIMERSCRIPT2.cs"
+"Assets/Scenes/LabirintoP2/scriptLab/welcome2.cs"
+"Assets/Scenes/LabirintoP2/scriptLab/WELCOMELABIRINTO.cs"
+"Assets/Scenes/LabirintoP2/scriptLab/WINPOPUPSCENE.cs"
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
 "Assets/Scenes/MemoryP3/LEVEL1/1AddButtons.cs"
 "Assets/Scenes/MemoryP3/LEVEL1/1MemoryManager.cs"
 "Assets/Scenes/MemoryP3/LEVEL1/1TypewriteEndGame.cs"
@@ -330,9 +338,12 @@
 "Assets/Scenes/MemoryP3/LEVEL2/2MemoryManager.cs"
 "Assets/Scenes/MemoryP3/LEVEL2/2TypewriteEndGame.cs"
 "Assets/Scenes/MemoryP3/LEVEL2/2TypewriterMemory.cs"
+<<<<<<< HEAD
 "Assets/Scenes/MemoryP3/LEVEL2/lossTime.cs"
 "Assets/Scenes/MemoryP3/LEVEL2/PositiveTHOUGHT.cs"
 "Assets/Scenes/MemoryP3/LEVEL2/Thought2.cs"
+=======
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
 "Assets/Scenes/MemoryP3/LEVEL2/TypewriterStart2.cs"
 "Assets/Scenes/Profili/Typewriter1.cs"
 "Assets/Scenes/Profili/Typewriter2.cs"

@@ -276,7 +276,11 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
+<<<<<<< HEAD
   field of view: 32.16663
+=======
+  field of view: 60
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -303,7 +307,11 @@ Transform:
   m_GameObject: {fileID: 237358490}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 465, y: 256, z: -3}
+=======
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -803,10 +811,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: "Hi Andrew! \n\nWe designed this level to stimulate your mind in a positive
     way. \nFind your way out of the maze. Imagine each step as the untangling of
     unnecessary thoughts, guiding you to ultimate serenity. \n\nAre you ready? Focus
     and have fun!"
+=======
+  m_text: "Hi <username>! \n\nWe designed this level to stimulate your mind in a
+    positive way. \nFind your way out of the maze. Imagine each step as the untangling
+    of unnecessary thoughts, guiding you to ultimate serenity. \n\nAre you ready?
+    Focus and have fun!"
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}

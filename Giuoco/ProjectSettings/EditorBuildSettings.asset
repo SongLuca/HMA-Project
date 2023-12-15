@@ -110,10 +110,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzzleP1/STANZA1.unity
     guid: 025750ecf0f774b44b24dcd56c3cc2b0
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/MemoryP3/LEVEL2/THOUGHT2.unity
     guid: d08cf3f3088864d578d4196eb0deeb55
   - enabled: 1
     path: Assets/Scenes/MemoryP3/LEVEL2/PositiveThought.unity
     guid: 3d962f2e3a43146f08adf4aaa664b79e
+=======
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
   m_configObjects: {}

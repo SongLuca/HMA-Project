@@ -950,11 +950,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: "Welcome to MindCraft HENRY, where emotions take shape. You emerge as a
     sociable and quiet person, but a negative thought has dimmed your inner light.
     \r\n\u2060Your mission is clear: overcome the levels and uncover the negative
     thought behind the shadow.\r\n\u2060Be brave, HENRY, and remember that even in
     darkness, you will find the strength to shine. Ready?\r\n"
+=======
+  m_text: "Welcome, <username>, to MindCraft, where emotions take shape. You emerge
+    as a sociable and quiet person, but a negative thought has dimmed your inner
+    light. \r\n\u2060Your mission is clear: overcome the levels and uncover the negative
+    thought behind the shadow.\r\n\u2060Be brave, <username>, and remember that even
+    in darkness, you will find the strength to shine. Ready?\r\n"
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}

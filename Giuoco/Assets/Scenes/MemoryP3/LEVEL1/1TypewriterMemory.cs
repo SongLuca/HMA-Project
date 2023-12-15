@@ -6,7 +6,11 @@ using UnityEngine.SceneManagement;
 public class TypewriterMemoryone : MonoBehaviour
 {
     public float delay = 0.05f;
+<<<<<<< HEAD
     private string fullText = "We designed this level to stimulate your mind in a positive way.\n\nYour challenge is to find the matching pairs of happy emoji. \n\nAre you ready? \nRemember, Luis, this is a time to focus on positive emotions, be calm and have fun.";
+=======
+    private string fullText = "We designed this level to stimulate your mind in a positive way. Put the puzzle back together and imagine each piece as a precious memory to be rediscovered. Remember, this is a time designed for fun and relaxation. Ready?";
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
     private string currentText = ""; // Aggiunto punto e virgola mancante
     public TextMeshProUGUI textDisplay;
     public string nextSceneName = "LEV1Memory";   // qui metti nome scena

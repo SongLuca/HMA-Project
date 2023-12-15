@@ -5595,7 +5595,11 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 406786,
+<<<<<<< HEAD
       "PayloadLength": 36451,
+=======
+      "PayloadLength": 36270,
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -5607,7 +5611,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aP.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 443323,
+=======
+      "PayloadOffset": 443142,
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -5827,12 +5835,20 @@
         "Assets/Scenes/LabirintoP2/scriptLab/LOSSPOPUPSCENE2.cs",
         "Assets/Scenes/LabirintoP2/scriptLab/MAZESCRIPT.cs",
         "Assets/Scenes/LabirintoP2/scriptLab/MAZESCRIPT2.cs",
+<<<<<<< HEAD
         "Assets/Scenes/LabirintoP2/scriptLab/TIMERSCRIPT1.cs",
         "Assets/Scenes/LabirintoP2/scriptLab/TIMESCRIPT2.cs",
         "Assets/Scenes/LabirintoP2/scriptLab/welcome2.cs",
         "Assets/Scenes/LabirintoP2/scriptLab/WELCOMELABIRINTO.cs",
         "Assets/Scenes/LabirintoP2/scriptLab/WINPOPUPSCENE.cs",
         "Assets/Scenes/LabirintoP2/ThoughtLBA.cs",
+=======
+        "Assets/Scenes/LabirintoP2/scriptLab/TIMERSCRIPT.cs",
+        "Assets/Scenes/LabirintoP2/scriptLab/TIMERSCRIPT2.cs",
+        "Assets/Scenes/LabirintoP2/scriptLab/welcome2.cs",
+        "Assets/Scenes/LabirintoP2/scriptLab/WELCOMELABIRINTO.cs",
+        "Assets/Scenes/LabirintoP2/scriptLab/WINPOPUPSCENE.cs",
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
         "Assets/Scenes/MemoryP3/LEVEL1/1AddButtons.cs",
         "Assets/Scenes/MemoryP3/LEVEL1/1MemoryManager.cs",
         "Assets/Scenes/MemoryP3/LEVEL1/1TypewriteEndGame.cs",
@@ -5841,9 +5857,12 @@
         "Assets/Scenes/MemoryP3/LEVEL2/2MemoryManager.cs",
         "Assets/Scenes/MemoryP3/LEVEL2/2TypewriteEndGame.cs",
         "Assets/Scenes/MemoryP3/LEVEL2/2TypewriterMemory.cs",
+<<<<<<< HEAD
         "Assets/Scenes/MemoryP3/LEVEL2/lossTime.cs",
         "Assets/Scenes/MemoryP3/LEVEL2/PositiveTHOUGHT.cs",
         "Assets/Scenes/MemoryP3/LEVEL2/Thought2.cs",
+=======
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
         "Assets/Scenes/MemoryP3/LEVEL2/TypewriterStart2.cs",
         "Assets/Scenes/Profili/Typewriter1.cs",
         "Assets/Scenes/Profili/Typewriter2.cs",
@@ -5986,7 +6005,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 443418,
+=======
+      "PayloadOffset": 443237,
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
       "PayloadLength": 6311,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],

@@ -7,7 +7,12 @@ using UnityEngine.SceneManagement;
 public class WINPOPUPSCENE : MonoBehaviour
 {
     public float delay = 0.1f; // Ritardo tra ogni carattere
+<<<<<<< HEAD
     private string fullText = "Congratulations! \n Your navigation skills are truly exceptional. \n \n A-maze-ing job, adventurer!"; // Testo completo da mostrare
+=======
+    private string fullText = "Congratulations! Your navigation skills are " +
+                              "truly exceptional. A-maze-ing job, adventurer!"; // Testo completo da mostrare
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
     private string currentText = ""; // Testo attualmente visualizzato
     public TextMeshProUGUI winpopupText; // Componente TextMeshPro per visualizzare il testo
     

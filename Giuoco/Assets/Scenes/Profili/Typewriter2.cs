@@ -7,9 +7,15 @@ public class Typewriter2 : MonoBehaviour
     public float delay = 0.05f; // Ritardo tra ogni carattere
     private string[] textParts = new string[]
     {
+<<<<<<< HEAD
         "Welcome to MindCraft ANDREW, where your emotions take shape. You emerge as a thoughtful and aware person facing some daily challenges.  A negative thought has touched your mind and darkened it.", 
         "Your mission is delicate: go over the levels and discover the negative thought behind the shadow.",
         "Be brave, ANDREW, and remember that even in darkness, you will find the strength to shine. Ready?"
+=======
+        "Welcome to MindCraft <username>, where your emotions take shape. You emerge as a thoughtful and aware person facing some daily challenges.  A negative thought has touched your mind and darkened it.", 
+        "Your mission is delicate: go over the levels and discover the negative thought behind the shadow.",
+        "Be brave, <username>, and remember that even in darkness, you will find the strength to shine. Ready?"
+>>>>>>> f7bdb52ee75ce186a7f1d8fc4e0a617793a05e6e
     };
 
     private TextMeshProUGUI textDisplay; // Componente TextMeshPro per visualizzare il testo
