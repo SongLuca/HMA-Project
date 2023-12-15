@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 7504041862924940409}
   - component: {fileID: 940897117540004375}
   - component: {fileID: 598304561139652952}
-  - component: {fileID: 7649441872940984322}
-  - component: {fileID: 4240933140924170082}
   m_Layer: 5
   m_Name: Button (Legacy) (1)
   m_TagString: Untagged
@@ -123,38 +121,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7649441872940984322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55206680792912583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d959cf6e62394adaa800413221adcfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  domandaText: {fileID: 0}
-  rispostaButtons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  testoRisultato: {fileID: 0}
---- !u!114 &4240933140924170082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55206680792912583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e7f500a87114a4d9e44519d3c770f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valoreRisposta: 0
 --- !u!1 &5494932164624613186
 GameObject:
   m_ObjectHideFlags: 0

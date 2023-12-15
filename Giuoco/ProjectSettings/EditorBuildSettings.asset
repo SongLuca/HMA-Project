@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Cervello2.unity
     guid: ca8eab4e2d0da4a738ebb1075f81dd1f
   - enabled: 1
-    path: Assets/Scenes/Cervello/Cervello.unity
+    path: Assets/Scenes/Cervello/P1Cervello1.unity
     guid: 8dafba99d6b934eddae96f70519ff79e
   - enabled: 1
     path: Assets/Scenes/STANZA1.unity
@@ -36,22 +36,22 @@ EditorBuildSettings:
     path: Assets/Scenes/Domande/DOMANDE.unity
     guid: a54a09e8cef4c47e5b94dccbc2495e9e
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL1/LEV1Memory.unity
+    path: Assets/Scenes/MemoryP3/LEVEL1/LEV1Memory.unity
     guid: 9eb675acf3a284b689683de54607a8b4
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL1/LEV1EndMem.unity
+    path: Assets/Scenes/MemoryP3/LEVEL1/LEV1EndMem.unity
     guid: 3547555f9a8124161b05b280f192818e
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL2/LEV2StartMem.unity
+    path: Assets/Scenes/MemoryP3/LEVEL2/LEV2StartMem.unity
     guid: aff7f29e5868845659a59e1c5a3e5454
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL2/LEV2EndMem.unity
+    path: Assets/Scenes/MemoryP3/LEVEL2/LEV2EndMem.unity
     guid: c2b45d315645945519e2e78136aef73f
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL2/LEV2Memory.unity
+    path: Assets/Scenes/MemoryP3/LEVEL2/LEV2Memory.unity
     guid: 107809963f99545d7998939997b04127
   - enabled: 1
-    path: Assets/Scenes/Memory/LEVEL1/LEV1StartMem.unity
+    path: Assets/Scenes/MemoryP3/LEVEL1/LEV1StartMem.unity
     guid: 453d8ee8229c14ed8b56396b7dcaa52b
   - enabled: 1
     path: Assets/Scenes/Questionari/QUESTIONARIO.unity
@@ -65,4 +65,55 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Profili/PROFILO3.unity
     guid: 5903aa89efb28446d977142afdbdefdd
+  - enabled: 1
+    path: Assets/Scenes/Cervello/P1Cervello2.unity
+    guid: e35f765f13ec14fecb45c72e14f481a0
+  - enabled: 1
+    path: Assets/Scenes/LabirintoP2/LABwelcome2.unity
+    guid: fdcfa345a47c0fe40997182d8d01b034
+  - enabled: 1
+    path: Assets/Scenes/LabirintoP2/LABIRINTO(LOSSPOPUP).unity
+    guid: 5d8d2a13a8d9f9e4499ac7db20cfc0ac
+  - enabled: 1
+    path: Assets/Scenes/LabirintoP2/LABIRINTO(LOSSPOPUP2).unity
+    guid: 1bc8dc6bd20b9794cb8eec012d8634de
+  - enabled: 1
+    path: Assets/Scenes/LabirintoP2/LABIRINTO(TRA2LIVELLI).unity
+    guid: 4a6bcafc5ee4e0f489a7f609d3ee5b3b
+  - enabled: 1
+    path: Assets/Scenes/LabirintoP2/LABIRINTO(VITTORIAFINALE).unity
+    guid: ac5ab3504e4661345815867c0eae7c2e
+  - enabled: 1
+    path: Assets/Scenes/LabirintoP2/LABIRINTO(WINPOPUP).unity
+    guid: c33bc0e61a01479478bf2a72388c51d8
+  - enabled: 1
+    path: Assets/Scenes/LabirintoP2/LABIRINTO1.unity
+    guid: 1711d33eb61ad584c878814298bc9f25
+  - enabled: 1
+    path: Assets/Scenes/Cervello/P2Cervello1.unity
+    guid: aca8b23b8a92743809924332eb9de4c0
+  - enabled: 1
+    path: Assets/Scenes/Cervello/P2cervello2.unity
+    guid: 3b14cc87628fd4467aa09ad7d004b590
+  - enabled: 1
+    path: Assets/Scenes/Cervello/P3Cervello1.unity
+    guid: b87f7eeb0842945bf84cab479cd7d1af
+  - enabled: 1
+    path: Assets/Scenes/Cervello/P3Cervello2.unity
+    guid: 01e08254c5cd94f079aaa9cf39fdd33f
+  - enabled: 1
+    path: Assets/Scenes/LabirintoP2/LABIRINTO2.unity
+    guid: a023747abee84ea41ab3728217db7935
+  - enabled: 1
+    path: Assets/Scenes/LabirintoP2/LABwelcome1.unity
+    guid: e7f837ca5907c4bf8a549ca4c8640562
+  - enabled: 1
+    path: Assets/Scenes/PuzzleP1/STANZA1.unity
+    guid: 025750ecf0f774b44b24dcd56c3cc2b0
+  - enabled: 1
+    path: Assets/Scenes/MemoryP3/LEVEL2/THOUGHT2.unity
+    guid: d08cf3f3088864d578d4196eb0deeb55
+  - enabled: 1
+    path: Assets/Scenes/MemoryP3/LEVEL2/PositiveThought.unity
+    guid: 3d962f2e3a43146f08adf4aaa664b79e
   m_configObjects: {}

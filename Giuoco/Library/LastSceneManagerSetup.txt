@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Profili/PROFILO3.unity
+- path: Assets/Scenes/PuzzleP1/PuzzleLev2/Puzzle difficile.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -215,7 +215,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Cervello
+          m_StringArgument: P2Cervello1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &147849803
@@ -477,7 +477,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 59}
+  m_AnchoredPosition: {x: 0, y: 116}
   m_SizeDelta: {x: 400, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1446877047
@@ -500,15 +500,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hello, <username>! Welcome to MindCraft, where your emotions take shape.
-    From your answers to the questionnaire, you emerge a thoughtful and aware person
-    facing some daily challenges. \nThis is your mind, a mirror of your thoughts
-    and emotions. A negative thought has touched your mind and darkened your inner
-    light.\nYour mission is delicate: go over the levels and discover the negative
-    thought behind the shadow. We know there are challenges, but this journey is
-    an opportunity to discover the strength that lies within you.\nBe brave, <username>,
-    and remember that even in the shadows you will find the strength to shine. Ready
-    to begin this extraordinary journey within yourself?"
+  m_text: "Welcome to MindCraft ANDREW, where your emotions take shape. You emerge
+    as a thoughtful and aware person facing some daily challenges.  A negative thought
+    has touched your mind and darkened it. \r\nYour mission is delicate: go over
+    the levels and discover the negative thought behind the shadow. \r\nBe brave,
+    ANDREW, and remember that even in darkness, you will find the strength to shine.
+    Ready?\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -517,8 +514,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280811563
-  m_fontColor: {r: 0.16981131, g: 0, b: 0.15571629, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -535,10 +532,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38
-  m_fontSizeBase: 38
+  m_fontSize: 70.45
+  m_fontSizeBase: 0
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -571,7 +568,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -718.9103, y: 0, z: -726.3209, w: -73.68691}
+  m_margin: {x: -718.9103, y: 0, z: -726.3209, w: -288.92966}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -598,7 +595,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.07
-  textDisplay: {fileID: 1446877047}
 --- !u!1 &1724437492
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,8 +807,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283039823
-  m_fontColor: {r: 0.31, g: 0, b: 0.2883721, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -829,10 +825,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 58.9
   m_fontSizeBase: 40
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -935,7 +931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 982860294dd9b4b47863fc3d9778d5af, type: 2}
-  m_Color: {r: 0.6548109, g: 0.52910286, b: 0.7735849, a: 0.9411765}
+  m_Color: {r: 0.35191453, g: 0.2896938, b: 0.5849056, a: 0.5372549}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

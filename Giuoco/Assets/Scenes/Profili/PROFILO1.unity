@@ -161,7 +161,7 @@ Transform:
   m_GameObject: {fileID: 48603026}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -141.61453, y: -129.75166, z: -2.3308609}
+  m_LocalPosition: {x: 1619, y: 203, z: -2.3308609}
   m_LocalScale: {x: 0.33500838, y: 0.33500838, z: 0.33500838}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -335,8 +335,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283039823
-  m_fontColor: {r: 0.31, g: 0, b: 0.2883721, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -353,10 +353,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
+  m_fontSize: 58.9
   m_fontSizeBase: 40
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 982860294dd9b4b47863fc3d9778d5af, type: 2}
-  m_Color: {r: 0.6548109, g: 0.52910286, b: 0.7735849, a: 0.9411765}
+  m_Color: {r: 0.35191453, g: 0.2896938, b: 0.5849056, a: 0.5372549}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -746,6 +746,7 @@ GameObject:
   - component: {fileID: 998467166}
   - component: {fileID: 998467165}
   - component: {fileID: 998467168}
+  - component: {fileID: 998467169}
   m_Layer: 5
   m_Name: CONTINUA
   m_TagString: Untagged
@@ -770,7 +771,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -564}
+  m_AnchoredPosition: {x: 0, y: -563.9999}
   m_SizeDelta: {x: 300, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998467165
@@ -826,7 +827,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Cervello
+          m_StringArgument: P1Cervello1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &998467166
@@ -879,6 +880,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acdf8fca2f06a4138b058eacdb9328c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &998467169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998467163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acdf8fca2f06a4138b058eacdb9328c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1004736508
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,7 +927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 59}
+  m_AnchoredPosition: {x: 0, y: 160}
   m_SizeDelta: {x: 400, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004736511
@@ -937,13 +950,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hello, <username>! Welcome to MindCraft, where your emotions take shape.
-    From your answers to the questionnaire, a sociable and quiet person emerges.
-    \nThis is your mind, a mirror of your thoughts and emotions. A negative thought
-    has touched your mind and darkened your inner light.\nYour mission is clear:
-    Go beyond the levels and discover the negative thought behind the shadow. Be
-    brave, <username>, and remember that even in the shadows you will find the strength
-    to shine. Ready to begin this extraordinary journey within yourself?"
+  m_text: "Welcome to MindCraft HENRY, where emotions take shape. You emerge as a
+    sociable and quiet person, but a negative thought has dimmed your inner light.
+    \r\n\u2060Your mission is clear: overcome the levels and uncover the negative
+    thought behind the shadow.\r\n\u2060Be brave, HENRY, and remember that even in
+    darkness, you will find the strength to shine. Ready?\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -952,8 +963,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280811563
-  m_fontColor: {r: 0.16981131, g: 0, b: 0.15571629, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -970,14 +981,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 51.2
+  m_fontSize: 72
   m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 32
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1006,7 +1017,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -718.9103, y: 0, z: -726.3209, w: -73.68691}
+  m_margin: {x: -718.9103, y: 0, z: -726.3209, w: -285.3423}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1033,7 +1044,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.07
-  textDisplay: {fileID: 1004736511}
 --- !u!1 &2073604943
 GameObject:
   m_ObjectHideFlags: 0

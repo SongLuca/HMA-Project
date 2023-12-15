@@ -24,8 +24,7 @@ public class QuestionManager : MonoBehaviour
         new List<string> {"18-24", "25-34", "35-44", "45-54"},
         new List<string> {"Female", "Male", "Non-binary", "Prefer not to say"},
         new List<string> {"Single", "In a relationship", "Married", "Prefer not to say"},
-        new List<string> {"High school Graduate", "Bachelor's Degree", "Master's Degree", "Other"},
-        new List<string> {"YES, I am currently receiving counseling or therapy", "NO, but I have received counseling or therapy in the past", "NO, I have not received counseling or therapy, and I am considering it", "NO, I have not received counseling or therapy, and I do not plan to."}
+        new List<string> {"Middle School Graduate", "High School Graduate", "Bachelor's Degree", "Master's Degree"},
     };
 
     private static QuestionManager _instance;
@@ -114,7 +113,6 @@ public class QuestionManager : MonoBehaviour
         "What age group do you fall into?",
         "What is your preferred gender identity?",
         "How would you describe your current relationship status?",
-        "What is your highest level of education completed?",
-        "Are you currently receiving professional mental health support or counseling?"
+        "What is your highest level of education completed?"
     };
 }
